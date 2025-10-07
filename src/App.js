@@ -1,3 +1,4 @@
+import ConstructionTracker from './components/ConstructionTracker';
 import { BrowserRouter as Router } from "react-router-dom";
 import PreloaderContainer from "./Components/PreloaderContainer.js";
 import ScrollIndicator from "./Components/ScrollIndicator.js";
@@ -10,7 +11,7 @@ import Chatbot from "./Components/Chatbot/Chatbot.js";
 
 
 function App() {
-  return (
+  return (<ConstructionTracker />
     <div className="App">
 
       <ScrollIndicator />
